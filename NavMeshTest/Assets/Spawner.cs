@@ -19,4 +19,9 @@ public class Spawner : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void SpawnMinion(MinionTeam t,MinionLane l)
+    {
+
+    }
 }
