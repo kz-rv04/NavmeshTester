@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class Spawner : MonoBehaviour {
 
+    [SerializeField]
+    private Material minionRed, minionBlue;
+
+    [SerializeField]
+    GameObject minonObj;
+
 	// Use this for initialization
 	void Start () {
 		
